@@ -1,0 +1,5 @@
+m=set(map(str, input("Sa se introduca elementele multimii m: ")))
+n=set(map(str, input("Sa se introduca elementele multimii n: ")))
+print("Caracterele care se intalnesc cel putin in unul dintre siruri sunt: ",m.intersection(n))
+print("Caracterele care apar in ambele siruri sunt: ",m.union(n))
+print("Caracterele care apar in primul si nu apar in sirul al doilea sunt: ",m.difference(n))
